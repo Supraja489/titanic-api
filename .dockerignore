@@ -1,0 +1,10 @@
+mlruns/
+__pycache__/
+*.pyc
+.git/
+tune.py
+train.py
+train.csv
+*.ipynb
+venv/
+.env
