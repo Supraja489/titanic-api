@@ -1,0 +1,23 @@
+artifact_path: /Users/suprajakommuri/titanic-api/mlruns/1/models/m-db1d53cfff5643de94f099c2a071b1e9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-db1d53cfff5643de94f099c2a071b1e9
+model_size_bytes: 3956496
+model_uuid: m-db1d53cfff5643de94f099c2a071b1e9
+prompts: null
+run_id: fa256e2d028b413b908d62bb5d9301a0
+utc_time_created: '2026-04-05 16:24:15.134434'
